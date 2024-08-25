@@ -71,7 +71,7 @@ console.log('DARK ZERO bot connected to whatsapp ✅')
 
 let up = `DARK ZERO MD 💫 connected successful ✅\n\nPREFIX: ${prefix}`;
 
-conn.sendMessage(ownerNumber + "@s.whatsapp.net", { image: { url: `https://telegra.ph/file/9ac18e93791120e8fc847.jpg` }, caption: up })
+conn.sendMessage(ownerNumber + "@s.whatsapp.net", { image: { url: `https://telegra.ph/file/7e1f9a45d326abc34d161.jpg` }, caption: up })
 
 }
 })
@@ -166,7 +166,11 @@ mek.type === "stickerMessage"
 command.function(conn, mek, m,{from, l, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply})
 }});
 //============================================================================ 
+if(!isOwner && config.MODE === "private") return
+if(!isOwner && isGroup && config.MODE === "inbox") return 
+if(!isOwner && !isGroup && config.MODE === "groups") return
 
+        
 })
 }
 app.get("/", (req, res) => {
