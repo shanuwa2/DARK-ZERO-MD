@@ -48,7 +48,7 @@ await conn.sendMessage(from,{document: {url:downloadUrl},mimetype:"audio/mpeg",f
 
 }catch(e){
 console.log(e)
-  reply('¢αηт ƒιη∂ α ѕσηg')
+  reply('𝐶𝑎𝑛𝑡 𝐹𝑖𝑛𝑑 α ѕσηg')
 }
 })
 
@@ -101,6 +101,6 @@ await conn.sendMessage(from,{document: {url:downloadUrl},mimetype:"video/mp4",fi
 
 }catch(e){
 console.log(e)
-  reply('¢αηт ƒιη∂ α νι∂єσ')
+  reply('𝐶𝑎𝑛𝑡 𝐹𝑖𝑛𝑑 α νι∂єσ')
 }
 })
