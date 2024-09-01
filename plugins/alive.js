@@ -34,7 +34,7 @@ let des = `✫💫 𝐃𝐀𝐑𝐊 𝐙𝐄𝐑𝐎 𝐌𝐃 💫✫
 _*© 𝗗𝗔𝗥𝗞 𝗭𝗘𝗥𝗢 𝘽𝙊𝙏 - MD*_
 
 💻 *GitHub:* https://github.com/Navinofc44/DARK-ZERO-MD`
-return await conn.sendMessage(from,{image: {url: `https://telegra.ph/file/5f450004250b52156b75c.jpg`},caption: des},{quoted: mek})
+return await conn.sendMessage(from,{image: {url: `https://telegra.ph/file/7e1f9a45d326abc34d161.jpg`},caption: des},{quoted: mek})
 }catch(e){
 console.log(e)
 reply(`${e}`)
