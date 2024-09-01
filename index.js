@@ -69,7 +69,7 @@ require("./plugins/" + plugin);
 console.log('Plugins installed successful ✅')
 console.log('Bot connected to whatsapp ✅')
 
-let up = `QUEEN-KYLIE-MD CONNETED SUCCESSFULLY 🤭✅\n\nPREFIX:${prefix}`;
+let up = `DARK-ZERO-MD CONNETED SUCCESSFULLY 🤭✅\n\nPREFIX:${prefix}`;
 
 conn.sendMessage(ownerNumber + "@s.whatsapp.net", { image: { url: `https://telegra.ph/file/7e1f9a45d326abc34d161.jpg` }, caption: up })
 
