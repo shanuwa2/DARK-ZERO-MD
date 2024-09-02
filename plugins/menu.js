@@ -12,7 +12,7 @@ async(conn, mek, m,{from, quoted, body, isCmd, command, args, q, isGroup, sender
 try{
 
 const voice = {
-    menu: 'media/AUD-20240901-WA0160.mp3'
+    menu: 'media/AUD-20240901-WA0161.mp3'
 }
 
 let dec = `👋 *Hello ${pushname}*
