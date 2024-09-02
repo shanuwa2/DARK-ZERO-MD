@@ -10,6 +10,9 @@ cmd({
 },
 async(conn, mek, m,{from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply}) => {
 try{
+const voice = {
+    alive: 'media/AUD-20240901-WA0160.mp3'
+        }
 
 let des = `✫💫 𝐃𝐀𝐑𝐊 𝐙𝐄𝐑𝐎 𝐌𝐃 💫✫
 
@@ -34,6 +37,9 @@ let des = `✫💫 𝐃𝐀𝐑𝐊 𝐙𝐄𝐑𝐎 𝐌𝐃 💫✫
 _*© 𝗗𝗔𝗥𝗞 𝗭𝗘𝗥𝗢 𝘽𝙊𝙏 - MD*_
 
 💻 *GitHub:* https://github.com/Navinofc44/DARK-ZERO-MD`
+
+await conn.sendMessage(from, { audio: { url: voice.alive }, mimetype: 'audio/mp4', ptt: true }, { quoted: mek })
+    
 return await conn.sendMessage(from,{image: {url: `https://telegra.ph/file/7e1f9a45d326abc34d161.jpg`},caption: des},{quoted: mek})
 }catch(e){
 console.log(e)
