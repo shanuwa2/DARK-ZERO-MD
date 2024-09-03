@@ -14,7 +14,9 @@ const voice = {
     alive: 'media/AUD-20240901-WA0160.mp3'
         }
 
-let des = `✫💫 𝐃𝐀𝐑𝐊 𝐙𝐄𝐑𝐎 𝐌𝐃 💫✫
+let des = `*👋 Hello ${pushname}* 
+
+✫💫 𝐃𝐀𝐑𝐊 𝐙𝐄𝐑𝐎 𝐌𝐃 💫✫
 
 *Hey there!*
 
