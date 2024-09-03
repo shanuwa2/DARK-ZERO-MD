@@ -3,7 +3,7 @@
      
   [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Rockstar-ExtraBold&color=F01&lines=DARK+ZERO+MD+WATSAPP+BOT)](https://git.io/typing-svg)
 
-💕 ＮＥＷ ＶＥＲＳＩＯＮ 𝐑𝐄𝐋𝐄𝐒𝐃.. 💫
+💕 ＮＥＷ ＶＥＲＳＩＯＮ 𝐂𝐨𝐦𝐩𝐥𝐞𝐭𝐞... 💫
 
 👇 𝗣𝗔𝗜𝗥 𝗖𝗢𝗗𝗘 DARK-ZERO-MD 💚
 
