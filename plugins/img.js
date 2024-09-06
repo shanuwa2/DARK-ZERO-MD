@@ -39,11 +39,10 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
             await conn.sendMessage(from, {
                 image: buffer,
                 caption: `
-*⚡Image ${i + 1} from your search!⚡*
-
- *Enjoy these images! 📸*
-
-*©ᴅᴀʀᴋ ᴢᴇʀᴏ ᴍᴅッ*`
+🌟 *Image ${i + 1} from your search!* 🌟
+✨ *DARK ZERO MD IMG DOWNLOADER* ✨
+        Enjoy these images! 📸
+`
 }, { quoted: mek });
 }
 
